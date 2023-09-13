@@ -7,7 +7,6 @@ namespace web2.Controllers
     [ApiController]
     public class NordpoolController : ControllerBase
     {
-
         private readonly HttpClient _httpClient;
 
         public NordpoolController(HttpClient httpClient)
